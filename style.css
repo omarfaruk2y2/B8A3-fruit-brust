@@ -5,3 +5,12 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.menubar .navbar-start{
+    display: none;
+}
+@media (max-width:575px){
+    .menubar .navbar-start {
+        display: unset;
+    }
+}
